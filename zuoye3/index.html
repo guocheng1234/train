@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>咖啡文化</title>
+    <style>
+        body{
+            margin:0;
+        }
+        #left ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        #left ul>li{
+            border-bottom: 1px solid black;
+            padding: 8px;
+        }
+        #left ul>li:last-child{
+            border-bottom: 0;
+        }
+        #left ul>li a{
+             text-decoration: none;
+             display: inline-block;
+             padding: 8px;
+             width: 100%;
+             box-sizing: border-box;
+        }
+        #left ui>li a:hover{
+             background-color: rgb(107, 81, 83);
+        }
+        #header{
+            height: 64px;
+            padding: 16px;
+            text-align: center;
+            background-color: aquamarine;
+            
+        }
+        #header h1{
+            margin: 0;
+        }
+        #header .icon{
+            height: 48px;
+            vertical-align: middle;
+        }
+        #container{
+            background-color: #EFF3FC;
+        }
+        #left{
+            display: inline-block;
+            width: 30%;
+            background-color: #EFF3FC;
+            vertical-align: top;
+        }
+        #right{
+            display: inline-block;
+            width: 69.5%;
+            background-color: white;
+        }
+        #footer{
+            text-align: center;
+            padding: 8px;
+            background-color: blue;
+        }
+        #center{
+            text-align: center;
+        }
+        .price::before{
+            content: '￥'
+        }
+        #p1{
+            text-indent: 2em;
+        }
+        #p1::first-letter{
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="header">
+        <h1 style="font-size: 48px;"><img src="./images/kafei.jpg" class="icon">来杯咖啡吧？</h1>
+    </div>
+        <div>
+            <div id="left">
+                <ul>
+                    <li><a href="#c1">拿铁</a></li>
+                    <li><a href="#c2">卡布奇诺</a></li>
+                    <li><a href="#c3">美式咖啡</a></li>
+                    <li><a href="#c4">焦糖玛奇朵</a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <div id="center">
+                    <img src="./images/natie.jpg" style="width: 70%;">
+                </div>
+                <table border="1" style="width: 70%;margin: auto;">
+                    <tr>
+                        <td>咖啡</td>
+                        <td>价格</td>
+                    </tr>
+                    <tr>
+                        <td>拿铁</td>
+                        <td>
+                            <span class="price">34.00</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>卡布奇诺</td>
+                        <td>
+                            <span class="price">26.00</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>美式咖啡</td>
+                        <td>
+                            <span class="price">23.00</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>焦糖玛奇朵</td>
+                        <td>
+                            <span class="price">30.00</span>
+                        </td>
+                    </tr>
+                </table>
+                <h3 id="c1">拿铁</h3>
+                <img src="./images/natie.jpg" style="width: 10%;">
+                 <p id="p1">拿铁(Latte)在意大利语里是"牛奶"的意思，如果你点一杯"拿铁"，那么服务生只会给你上一杯牛奶。而意大利语的Caffè Latte指的才是拿铁。现在很多冷饮店都会推出自己的"拿铁"系列，像"红茶拿铁""抹茶拿铁"等等，其实就是奶茶而并没有咖啡的成分。
+                    拿铁咖啡是意大利浓缩咖啡(Espresso)与牛奶的经典混合，意大利人也很喜欢把拿铁作为早餐的饮料。意大利人早晨的厨房里，照得到阳光的炉子上通常会同时煮着咖啡和牛奶。喝拿铁的意大利人，与其说他们喜欢意大利浓缩咖啡，不如说他们喜欢牛奶，也只有Espresso才能给普普通通的牛奶带来让人难以忘怀的味道。</p>
+                 <h3 id="c2">卡布奇诺</h3>
+                 <img src="./images/kbqn.jpg" style="width: 10%;">
+                 <p id="p1">卡布奇诺的味道很好，但它的名称来历却更有学问，一直是欧美研究文字变迁的最佳体材。 Cappuccino此字的历史，足以说明一个字常常会因为看来像某样东西，最后被引申成其它字义，远远超出造字者原先用意。听来似乎蛮复杂的。创设于一五二五年以后的圣芳济教会(Capuchin)的修士都穿著褐色道袍，头戴一顶尖尖帽子，圣芳济教会传到意大利时，当地人觉得修士服饰很特殊，就给他们取个Cappuccino的名字，此字的意大利文是指僧侣所穿宽松长袍和小尖帽，源自意大利文"头巾"即Cappuccino。</p>
+                 <h3 id="c3">美式咖啡</h3>
+                 <img src="./images/mskf.jpg" style="width: 10%;">
+                 <p id="p1">
+                    "美式咖啡"(英文:Americano，意大利语:Caffè Americano)咖啡的一种，是最普通的咖啡。是使用滴滤式咖啡壶所制作出的黑咖啡，又或者是意式浓缩中加入大量的水制成。
+                    美式咖啡口味比较淡。因为一般的萃取时间相对较长(大概四五分钟)，所以咖啡因含量较高。</p>
+                 <h3 id="c4">焦糖玛奇朵</h3>
+                 <img src="./images/jtmqd.jpg" style="width: 10%;">
+                 <p id="p1">焦糖玛奇朵(英文:Caramel Macchiato)是在香浓热牛奶上加入浓缩咖啡、香草，再淋上纯正焦糖而制成的饮品，融合三种不同口味。Macchiato意大利文，意思是"烙印"和"印染"，中文音译"玛奇朵"。"Caramel"意思是焦糖。焦糖玛琪朵，寓意"甜蜜的印记"。</p>
+            </div>
+        </div>
+        <div id="footer">版权所有 &copy; 蔡国城</div>
+    </div>
+</body>
+</html>
